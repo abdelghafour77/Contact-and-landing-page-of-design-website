@@ -1,0 +1,100 @@
+body {
+    background-color: #FBF7EE;
+    font-family: 'Karla', sans-serif;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+
+}
+
+li {
+    padding-left: 16px;
+}
+
+.logo {
+    font-weight: bold;
+
+}
+
+.btns {
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    flex: 1 1 0%;
+}
+
+.try {
+    text-decoration: none;
+    /* border: 1px solid blue; */
+    padding: 8px;
+    border-radius: 3px;
+    background-color: #0B48A8;
+    color: #FBF7EE;
+    box-shadow: 0px 4px 0px 0px #041c40;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 5 1 0%;
+    height: 100%;
+}
+
+.container {
+    width: 90%;
+    height: auto;
+    display: grid;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.Sign {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.title {
+    color: #13366d;
+    font-size: xxx-large;
+}
+
+.para {
+    color: #a2a2a2;
+}
+
+.description {
+    padding-top: 30px;
+    display: flex;
+}
+
+.info {
+    padding-top: 20px;
+    font-size: small;
+    color: grey;
+}
+
+.info-text {
+    padding-right: 16px;
+}
+
+.email {
+    width: 300px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.a {
+    padding-right: 10%;
+}
