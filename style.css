@@ -22,8 +22,11 @@ li {
 
 .logo {
     font-weight: bold;
-
+    font-size: x-large;
+    font-family: 'Poppins', sans-serif;
+    color: #13366D;
 }
+
 
 .btns {
     display: flex;
@@ -33,25 +36,27 @@ li {
 }
 
 .try {
+    font-weight: bold;
     text-decoration: none;
     /* border: 1px solid blue; */
-    padding: 8px;
-    border-radius: 3px;
+    padding: 10px 25px;
+    border-radius: 5px;
     background-color: #0B48A8;
     color: #FBF7EE;
     box-shadow: 0px 4px 0px 0px #041c40;
 }
 
 .menu {
+    font-weight: bold;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex: 5 1 0%;
+    flex: 4 0 0%;
     height: 100%;
 }
 
 .container {
-    width: 90%;
+    width: 85%;
     height: auto;
     display: grid;
     margin-right: auto;
@@ -79,10 +84,21 @@ li {
     display: flex;
 }
 
+.left-section {
+    padding-right: 10%;
+}
+
 .info {
     padding-top: 20px;
     font-size: small;
     color: grey;
+    display: flex;
+}
+
+.single-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .info-text {
@@ -90,11 +106,19 @@ li {
 }
 
 .email {
+    height: 2.5rem !important;
+    border-radius: 5px;
+    border: 1px solid #8a8a8a;
     width: 300px;
     height: 30px;
     margin-right: 20px;
 }
 
-.a {
-    padding-right: 10%;
+.email::placeholder {
+    padding-left: 15px;
+    color: #b5b5b5;
+}
+
+.img-info {
+    padding-right: 8px;
 }
